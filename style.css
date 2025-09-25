@@ -89,3 +89,29 @@ aside {
 footer {
     margin-top: 30px;
 }
+
+.favorite {
+    border: 2px solid #ff9800;
+    background-color: #fff3e0;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e68900;
+}
+#favorites {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+#favorites-list li {
+    margin-bottom: 5px;
+}
